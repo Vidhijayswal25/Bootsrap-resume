@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<!-- saved from url=(0033)http://127.0.0.1:5500/Resume.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Bootstrap Example</title>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./bootsrap resume_files/bootstrap.min.css">
+  <script src="./bootsrap resume_files/jquery.min.js.download"></script>
+  <script src="./bootsrap resume_files/bootstrap.min.js.download"></script>
+ <link rel="stylesheet" href="./bootsrap resume_files/resume.css">
+</head>
+<body>
+
+<div class="container">
+  <h2><center>Resume</center></h2>
+  <div class="into">
+    <legend>
+    <!-- Name : Vidhi N Jayswal
+    <br>Add  : 2283-A,Motipole,Kadiyanaka,Dariyapur,Ahmedabad. -->
+    <table>
+      <tbody><tr>
+        <td>Name:</td>
+        <td>Vidhi Jayswal</td>
+      </tr>
+      <tr>
+        <td>Address : </td>
+        <td>2283-A,Motipole,Kadiyanaka,Dariyapur,Ahmedabad.</td>
+      </tr>
+      <tr>
+        <td>Mobile : </td>
+        <td>9913267775</td>
+      </tr>
+      <tr>
+        <td>Email-id : </td>
+        <td>vjayswal230@gmail.com</td>
+      </tr>
+    </tbody></table>
+  </legend>
+  </div>
+  
+ 
+  <table class="table">
+    <thead>
+      <tr>
+        <td>Sr No:</td>
+        <td>CLASS</td>
+        <td>BOARD/UNIVERSITY</td>
+        <td>YEAR</td>
+        <td>PERCENTAGE</td>
+        <td></td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="active">
+        <td>1</td>
+        <td>SSC</td>
+        <td>GSEB</td>
+        <td>2017</td>
+        <td>80%</td>
+        <td rowspan="4"><img src="./bootsrap resume_files/vidhi.jpg" height="150px" width="120px"></td>
+      </tr>      
+      <tr class="success">
+        <td>2</td>
+        <td>HHC</td>
+        <td>GSEB</td>
+        <td>2019</td>
+        <td>85%</td>
+        
+      </tr>
+      <tr class="danger">
+        <td>3</td>
+        <td>BSC-IT</td>
+        <td>GUJARAT UNIVERSITY</td>
+        <td>2022</td>
+        <td>3.75/5</td>
+        
+      </tr>
+      <tr class="info">
+        <td>4</td>
+        <td>MSC-IT</td>
+        <td>GUJARAT UNIVERSITY</td>
+        <td>2023-2024</td>
+        <td>PURSUING</td>
+       
+      </tr>
+      
+  </tbody></table>
+<div class="into">
+  <legend><h2>Detail</h2>
+    <table class="table">
+      <thead>
+        <tr>
+          <td>SSC &amp; HHC</td>
+          <td>The H.B.Kapadiya New Highschool</td>          
+        </tr>
+        <tr>
+          <td>MSC-IT</td>
+          <td>K.S school of Businessmanagement &amp; Information &amp; Technology</td>          
+        </tr>
+        <tr>
+          <td>PROJECT</td>
+          <td>E-Commerce Website on Toystore</td>          
+        </tr>
+        <tr>
+          <td>SKILL</td>
+          <td>Html,css,javascript,Bootstrap</td>          
+        </tr>
+      </thead>
+      </table>
+  </legend>
+</div>
+<div>
+    <legend>Certificates</legend>
+    <button type="button" id="one" class="btn btn-success">Internship</button>
+    <button type="button" id="two" class="btn btn-success">Css</button>
+    <button type="button" id="three" class="btn btn-success">Digital Marketing</button>
+    <button type="button" id="four" class="btn btn-success">Communication skill</button>
+    
+</div>
+
+
+<div class="into">
+    <legend><h2>Personnel Detail:-</h2>
+    <!-- Name : Vidhi N Jayswal
+    <br>Add  : 2283-A,Motipole,Kadiyanaka,Dariyapur,Ahmedabad. -->
+    <table class="table">
+      <tbody><tr class="success">
+     <td>Name</td>
+      <td>Vidhi</td>
+    </tr>
+
+    <tr class="danger">
+      <td>Date of Birth : </td>
+       <td>25/01/2002</td>
+     </tr>
+     <tr class="success">
+      <td>Nationality : </td>
+       <td>indian</td>
+     </tr>
+    </tbody></table>
+  </legend>
+  </div>
+<p> I do hereby declare that the statements made in document are true to the best of my knowledge
+  <br><u>VidhiJayswal.</u>
+</p>
+
+</div>
+
+<script>
+  // Get the button element
+const button = document.getElementById('two');
+const button1 = document.getElementById('one');
+const button2 = document.getElementById('three');
+const button3 = document.getElementById('four');
+
+// Attach a click event listener to the button
+button.addEventListener('click', function() {
+  // Redirect to the desired page
+  window.location.href = 'css.jpg';
+});
+
+button1.addEventListener('click', function() {
+  // Redirect to the desired page
+  window.location.href = 'internship.jpg';
+});
+
+button2.addEventListener('click', function() {
+  // Redirect to the desired page
+  window.location.href = 'communication';
+});
+
+button3.addEventListener('click', function() {
+  // Redirect to the desired page
+  window.location.href = 'digital marketing.jpg';
+});
+
+</script>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+
+</body></html>

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+ <link rel="stylesheet" href="resume.css">
+</head>
+<body>
+
+<div class="container">
+  <h2><center>Resume</center></h2>
+  <div class = "into">
+    <legend>
+    <!-- Name : Vidhi N Jayswal
+    <br>Add  : 2283-A,Motipole,Kadiyanaka,Dariyapur,Ahmedabad. -->
+    <table>
+      <tr>
+        <td>Name:</td>
+        <td>Vidhi Jayswal</td>
+      </tr>
+      <tr>
+        <td>Address : </td>
+        <td>2283-A,Motipole,Kadiyanaka,Dariyapur,Ahmedabad.</td>
+      </tr>
+      <tr>
+        <td>Mobile : </td>
+        <td>9913267775</td>
+      </tr>
+      <tr>
+        <td>Email-id : </td>
+        <td>vjayswal230@gmail.com</td>
+      </tr>
+    </table>
+  </legend>
+  </div>
+  
+ 
+  <table class="table">
+    <thead >
+      <tr>
+        <td>Sr No:</td>
+        <td>CLASS</td>
+        <td>BOARD/UNIVERSITY</td>
+        <td>YEAR</td>
+        <td>PERCENTAGE</td>
+        <td></td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="active">
+        <td>1</td>
+        <td>SSC</td>
+        <td>GSEB</td>
+        <td>2017</td>
+        <td>80%</td>
+        <td rowspan="4"><img src="vidhi.jpg" height="150px" width="120px"></td>
+      </tr>      
+      <tr class="success">
+        <td>2</td>
+        <td>HHC</td>
+        <td>GSEB</td>
+        <td>2019</td>
+        <td>85%</td>
+        
+      </tr>
+      <tr class="danger">
+        <td>3</td>
+        <td>BSC-IT</td>
+        <td>GUJARAT UNIVERSITY</td>
+        <td>2022</td>
+        <td>3.75/5</td>
+        
+      </tr>
+      <tr class="info">
+        <td>4</td>
+        <td>MSC-IT</td>
+        <td>GUJARAT UNIVERSITY</td>
+        <td>2023-2024</td>
+        <td>PURSUING</td>
+       
+      </tr>
+      
+  </table>
+<div class = "into">
+  <legend><h2>Detail</h2>
+    <table class="table" >
+      <thead >
+        <tr >
+          <td>SSC & HHC</td>
+          <td>The H.B.Kapadiya New Highschool</td>          
+        </tr>
+        <tr>
+          <td>MSC-IT</td>
+          <td>K.S school of Businessmanagement & Information & Technology</td>          
+        </tr>
+        <tr >
+          <td>PROJECT</td>
+          <td>E-Commerce Website on Toystore</td>          
+        </tr>
+        <tr >
+          <td>SKILL</td>
+          <td>Html,css,javascript,Bootstrap</td>          
+        </tr>
+      </thead>
+      </table>
+  </legend>
+</div>
+<div>
+    <legend>Certificates</legend>
+    <button type="button" id="one" class="btn btn-success">Internship</button>
+    <button type="button" id="two" class="btn btn-success">Css</button>
+    <button type="button" id="three" class="btn btn-success">Digital Marketing</button>
+    <button type="button" id="four"class="btn btn-success">Communication skill</button>
+    
+</div>
+
+
+<div class = "into">
+    <legend><h2>Personnel Detail:-</h2>
+    <!-- Name : Vidhi N Jayswal
+    <br>Add  : 2283-A,Motipole,Kadiyanaka,Dariyapur,Ahmedabad. -->
+    <table class="table">
+      <tr class="success">
+     <td>Name</td>
+      <td>Vidhi</td>
+    </tr>
+
+    <tr class="danger">
+      <td>Date of Birth : </td>
+       <td>25/01/2002</td>
+     </tr>
+     <tr class="success">
+      <td>Nationality : </td>
+       <td>indian</td>
+     </tr>
+    </table>
+  </legend>
+  </div>
+<p> I do hereby declare that the statements made in document are true to the best of my knowledge
+  <br><u>VidhiJayswal.</u>
+</p>
+
+</div>
+
+<script>
+  // Get the button element
+const button = document.getElementById('two');
+const button1 = document.getElementById('one');
+const button2 = document.getElementById('three');
+const button3 = document.getElementById('four');
+
+// Attach a click event listener to the button
+button.addEventListener('click', function() {
+  // Redirect to the desired page
+  window.location.href = 'css.jpg';
+});
+
+button1.addEventListener('click', function() {
+  // Redirect to the desired page
+  window.location.href = 'internship.jpg';
+});
+
+button2.addEventListener('click', function() {
+  // Redirect to the desired page
+  window.location.href = 'communication';
+});
+
+button3.addEventListener('click', function() {
+  // Redirect to the desired page
+  window.location.href = 'digital marketing.jpg';
+});
+
+</script>
+</body>
+</html>
+
